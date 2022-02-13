@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1E906C4727B7A51B00F6E52F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1E906C4627B7A51B00F6E52F /* Assets.xcassets */; };
+		1E906C4D27B7A51B00F6E52F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E906C4C27B7A51B00F6E52F /* main.m */; };
+		1E906C6027B7A61E00F6E52F /* SPAccountViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E906C5F27B7A61E00F6E52F /* SPAccountViewController.m */; };
+		1E906C6327B7A63400F6E52F /* SPMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E906C6127B7A63400F6E52F /* SPMainViewController.m */; };
+		1E906C6A27B7A64200F6E52F /* SPNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E906C6527B7A64200F6E52F /* SPNavigationController.m */; };
+		1E906C6B27B7A64200F6E52F /* SPBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E906C6627B7A64200F6E52F /* SPBaseViewController.m */; };
+		1E906C6C27B7A64200F6E52F /* SPTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E906C6927B7A64200F6E52F /* SPTabBarController.m */; };
+		1E906C7127B7A67600F6E52F /* SPWelcomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E906C7027B7A67600F6E52F /* SPWelcomeViewController.m */; };
+		1E906C7727B7A71400F6E52F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E906C7527B7A71400F6E52F /* AppDelegate.m */; };
+		1E906C7D27B7B69400F6E52F /* DebugViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E906C7C27B7B69400F6E52F /* DebugViewController.m */; };
+		1E906C8127B80DE300F6E52F /* SPDataCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E906C8027B80DE300F6E52F /* SPDataCenter.m */; };
+		1E906C8527B917E700F6E52F /* UIColor+HandleColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E906C8427B917E700F6E52F /* UIColor+HandleColor.m */; };
+		1E906C9227B92A7B00F6E52F /* SPLaunchScreenManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E906C9127B92A7B00F6E52F /* SPLaunchScreenManager.m */; };
+		1E906C9527B92AED00F6E52F /* SPLaunchScreenView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E906C9427B92AED00F6E52F /* SPLaunchScreenView.m */; };
+		1E906C9927B9357F00F6E52F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E906C9827B9357F00F6E52F /* LaunchScreen.storyboard */; };
+		8025CA66ECC6C9CCB11E617E /* Pods_SwirePonk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D03C78E911ABB6664594A42E /* Pods_SwirePonk.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1E906C3727B7A51B00F6E52F /* SwirePonk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwirePonk.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E906C4627B7A51B00F6E52F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1E906C4B27B7A51B00F6E52F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1E906C4C27B7A51B00F6E52F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1E906C5E27B7A61E00F6E52F /* SPAccountViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPAccountViewController.h; sourceTree = "<group>"; };
+		1E906C5F27B7A61E00F6E52F /* SPAccountViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPAccountViewController.m; sourceTree = "<group>"; };
+		1E906C6127B7A63400F6E52F /* SPMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPMainViewController.m; sourceTree = "<group>"; };
+		1E906C6227B7A63400F6E52F /* SPMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPMainViewController.h; sourceTree = "<group>"; };
+		1E906C6427B7A64200F6E52F /* SPNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPNavigationController.h; sourceTree = "<group>"; };
+		1E906C6527B7A64200F6E52F /* SPNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPNavigationController.m; sourceTree = "<group>"; };
+		1E906C6627B7A64200F6E52F /* SPBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPBaseViewController.m; sourceTree = "<group>"; };
+		1E906C6727B7A64200F6E52F /* SPBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPBaseViewController.h; sourceTree = "<group>"; };
+		1E906C6827B7A64200F6E52F /* SPTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPTabBarController.h; sourceTree = "<group>"; };
+		1E906C6927B7A64200F6E52F /* SPTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPTabBarController.m; sourceTree = "<group>"; };
+		1E906C6F27B7A67600F6E52F /* SPWelcomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPWelcomeViewController.h; sourceTree = "<group>"; };
+		1E906C7027B7A67600F6E52F /* SPWelcomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPWelcomeViewController.m; sourceTree = "<group>"; };
+		1E906C7227B7A69300F6E52F /* SPColorMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SPColorMacro.h; sourceTree = "<group>"; };
+		1E906C7327B7A6CC00F6E52F /* SPDefinedMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SPDefinedMacro.h; sourceTree = "<group>"; };
+		1E906C7527B7A71400F6E52F /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1E906C7627B7A71400F6E52F /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1E906C7927B7A79300F6E52F /* SwirePonk-PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SwirePonk-PrefixHeader.pch"; sourceTree = "<group>"; };
+		1E906C7B27B7B69400F6E52F /* DebugViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DebugViewController.h; sourceTree = "<group>"; };
+		1E906C7C27B7B69400F6E52F /* DebugViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DebugViewController.m; sourceTree = "<group>"; };
+		1E906C7F27B80DE300F6E52F /* SPDataCenter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SPDataCenter.h; sourceTree = "<group>"; };
+		1E906C8027B80DE300F6E52F /* SPDataCenter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SPDataCenter.m; sourceTree = "<group>"; };
+		1E906C8327B917E700F6E52F /* UIColor+HandleColor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+HandleColor.h"; sourceTree = "<group>"; };
+		1E906C8427B917E700F6E52F /* UIColor+HandleColor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+HandleColor.m"; sourceTree = "<group>"; };
+		1E906C8627B91F2400F6E52F /* SPCategory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SPCategory.h; sourceTree = "<group>"; };
+		1E906C9027B92A7B00F6E52F /* SPLaunchScreenManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SPLaunchScreenManager.h; sourceTree = "<group>"; };
+		1E906C9127B92A7B00F6E52F /* SPLaunchScreenManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SPLaunchScreenManager.m; sourceTree = "<group>"; };
+		1E906C9327B92AED00F6E52F /* SPLaunchScreenView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SPLaunchScreenView.h; sourceTree = "<group>"; };
+		1E906C9427B92AED00F6E52F /* SPLaunchScreenView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SPLaunchScreenView.m; sourceTree = "<group>"; };
+		1E906C9827B9357F00F6E52F /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		53FD90A546DBF0F0ACCC3F60 /* Pods-SwirePonk.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwirePonk.release.xcconfig"; path = "Target Support Files/Pods-SwirePonk/Pods-SwirePonk.release.xcconfig"; sourceTree = "<group>"; };
+		BEE4CEDFC2F7C5670FDB7A43 /* Pods-SwirePonk.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwirePonk.debug.xcconfig"; path = "Target Support Files/Pods-SwirePonk/Pods-SwirePonk.debug.xcconfig"; sourceTree = "<group>"; };
+		D03C78E911ABB6664594A42E /* Pods_SwirePonk.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwirePonk.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1E906C3427B7A51B00F6E52F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8025CA66ECC6C9CCB11E617E /* Pods_SwirePonk.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1E906C2E27B7A51B00F6E52F = {
+			isa = PBXGroup;
+			children = (
+				1E906C5327B7A54200F6E52F /* SwirePonkShareCode */,
+				1E906C3927B7A51B00F6E52F /* SwirePonk */,
+				1E906C3827B7A51B00F6E52F /* Products */,
+				605074F1D342BF17442B127A /* Pods */,
+				7BFC562829FD6C0089336222 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1E906C3827B7A51B00F6E52F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1E906C3727B7A51B00F6E52F /* SwirePonk.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1E906C3927B7A51B00F6E52F /* SwirePonk */ = {
+			isa = PBXGroup;
+			children = (
+				1E906C7A27B7B66700F6E52F /* DebugAssistant */,
+				1E906C7827B7A77B00F6E52F /* SupportFiles */,
+				1E906C7427B7A6FA00F6E52F /* AppEntry */,
+				1E906C4627B7A51B00F6E52F /* Assets.xcassets */,
+				1E906C4B27B7A51B00F6E52F /* Info.plist */,
+				1E906C4C27B7A51B00F6E52F /* main.m */,
+				1E906C9827B9357F00F6E52F /* LaunchScreen.storyboard */,
+			);
+			path = SwirePonk;
+			sourceTree = "<group>";
+		};
+		1E906C5327B7A54200F6E52F /* SwirePonkShareCode */ = {
+			isa = PBXGroup;
+			children = (
+				1E906C8227B9169B00F6E52F /* Category */,
+				1E906C5A27B7A5DE00F6E52F /* MainTab */,
+				1E906C5827B7A5BD00F6E52F /* MainBusiness */,
+				1E906C5727B7A5B400F6E52F /* Macros */,
+			);
+			path = SwirePonkShareCode;
+			sourceTree = "<group>";
+		};
+		1E906C5727B7A5B400F6E52F /* Macros */ = {
+			isa = PBXGroup;
+			children = (
+				1E906C7227B7A69300F6E52F /* SPColorMacro.h */,
+				1E906C7327B7A6CC00F6E52F /* SPDefinedMacro.h */,
+			);
+			path = Macros;
+			sourceTree = "<group>";
+		};
+		1E906C5827B7A5BD00F6E52F /* MainBusiness */ = {
+			isa = PBXGroup;
+			children = (
+				1E906C9A27B9374800F6E52F /* 开屏广告 */,
+				1E906C7E27B80D9100F6E52F /* 通用网络请求 */,
+				1E906C6E27B7A65F00F6E52F /* 欢迎页 */,
+			);
+			path = MainBusiness;
+			sourceTree = "<group>";
+		};
+		1E906C5A27B7A5DE00F6E52F /* MainTab */ = {
+			isa = PBXGroup;
+			children = (
+				1E906C5D27B7A60400F6E52F /* 首页 */,
+				1E906C5C27B7A5FC00F6E52F /* 我的 */,
+				1E906C5B27B7A5ED00F6E52F /* 基础架构 */,
+			);
+			path = MainTab;
+			sourceTree = "<group>";
+		};
+		1E906C5B27B7A5ED00F6E52F /* 基础架构 */ = {
+			isa = PBXGroup;
+			children = (
+				1E906C6727B7A64200F6E52F /* SPBaseViewController.h */,
+				1E906C6627B7A64200F6E52F /* SPBaseViewController.m */,
+				1E906C6427B7A64200F6E52F /* SPNavigationController.h */,
+				1E906C6527B7A64200F6E52F /* SPNavigationController.m */,
+				1E906C6827B7A64200F6E52F /* SPTabBarController.h */,
+				1E906C6927B7A64200F6E52F /* SPTabBarController.m */,
+			);
+			path = "基础架构";
+			sourceTree = "<group>";
+		};
+		1E906C5C27B7A5FC00F6E52F /* 我的 */ = {
+			isa = PBXGroup;
+			children = (
+				1E906C5E27B7A61E00F6E52F /* SPAccountViewController.h */,
+				1E906C5F27B7A61E00F6E52F /* SPAccountViewController.m */,
+			);
+			path = "我的";
+			sourceTree = "<group>";
+		};
+		1E906C5D27B7A60400F6E52F /* 首页 */ = {
+			isa = PBXGroup;
+			children = (
+				1E906C6227B7A63400F6E52F /* SPMainViewController.h */,
+				1E906C6127B7A63400F6E52F /* SPMainViewController.m */,
+			);
+			path = "首页";
+			sourceTree = "<group>";
+		};
+		1E906C6E27B7A65F00F6E52F /* 欢迎页 */ = {
+			isa = PBXGroup;
+			children = (
+				1E906C6F27B7A67600F6E52F /* SPWelcomeViewController.h */,
+				1E906C7027B7A67600F6E52F /* SPWelcomeViewController.m */,
+			);
+			path = "欢迎页";
+			sourceTree = "<group>";
+		};
+		1E906C7427B7A6FA00F6E52F /* AppEntry */ = {
+			isa = PBXGroup;
+			children = (
+				1E906C7627B7A71400F6E52F /* AppDelegate.h */,
+				1E906C7527B7A71400F6E52F /* AppDelegate.m */,
+			);
+			path = AppEntry;
+			sourceTree = "<group>";
+		};
+		1E906C7827B7A77B00F6E52F /* SupportFiles */ = {
+			isa = PBXGroup;
+			children = (
+				1E906C7927B7A79300F6E52F /* SwirePonk-PrefixHeader.pch */,
+			);
+			path = SupportFiles;
+			sourceTree = "<group>";
+		};
+		1E906C7A27B7B66700F6E52F /* DebugAssistant */ = {
+			isa = PBXGroup;
+			children = (
+				1E906C7B27B7B69400F6E52F /* DebugViewController.h */,
+				1E906C7C27B7B69400F6E52F /* DebugViewController.m */,
+			);
+			path = DebugAssistant;
+			sourceTree = "<group>";
+		};
+		1E906C7E27B80D9100F6E52F /* 通用网络请求 */ = {
+			isa = PBXGroup;
+			children = (
+				1E906C7F27B80DE300F6E52F /* SPDataCenter.h */,
+				1E906C8027B80DE300F6E52F /* SPDataCenter.m */,
+			);
+			path = "通用网络请求";
+			sourceTree = "<group>";
+		};
+		1E906C8227B9169B00F6E52F /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				1E906C8327B917E700F6E52F /* UIColor+HandleColor.h */,
+				1E906C8427B917E700F6E52F /* UIColor+HandleColor.m */,
+				1E906C8627B91F2400F6E52F /* SPCategory.h */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		1E906C9A27B9374800F6E52F /* 开屏广告 */ = {
+			isa = PBXGroup;
+			children = (
+				1E906C9327B92AED00F6E52F /* SPLaunchScreenView.h */,
+				1E906C9427B92AED00F6E52F /* SPLaunchScreenView.m */,
+				1E906C9027B92A7B00F6E52F /* SPLaunchScreenManager.h */,
+				1E906C9127B92A7B00F6E52F /* SPLaunchScreenManager.m */,
+			);
+			path = "开屏广告";
+			sourceTree = "<group>";
+		};
+		605074F1D342BF17442B127A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BEE4CEDFC2F7C5670FDB7A43 /* Pods-SwirePonk.debug.xcconfig */,
+				53FD90A546DBF0F0ACCC3F60 /* Pods-SwirePonk.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		7BFC562829FD6C0089336222 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D03C78E911ABB6664594A42E /* Pods_SwirePonk.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1E906C3627B7A51B00F6E52F /* SwirePonk */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1E906C5027B7A51B00F6E52F /* Build configuration list for PBXNativeTarget "SwirePonk" */;
+			buildPhases = (
+				D16034002EA9E147F27DCF54 /* [CP] Check Pods Manifest.lock */,
+				1E906C3327B7A51B00F6E52F /* Sources */,
+				1E906C3427B7A51B00F6E52F /* Frameworks */,
+				1E906C3527B7A51B00F6E52F /* Resources */,
+				0D454F5B909A938F239903FF /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwirePonk;
+			productName = SwirePonk;
+			productReference = 1E906C3727B7A51B00F6E52F /* SwirePonk.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1E906C2F27B7A51B00F6E52F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					1E906C3627B7A51B00F6E52F = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 1E906C3227B7A51B00F6E52F /* Build configuration list for PBXProject "SwirePonk" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1E906C2E27B7A51B00F6E52F;
+			productRefGroup = 1E906C3827B7A51B00F6E52F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1E906C3627B7A51B00F6E52F /* SwirePonk */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1E906C3527B7A51B00F6E52F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E906C4727B7A51B00F6E52F /* Assets.xcassets in Resources */,
+				1E906C9927B9357F00F6E52F /* LaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0D454F5B909A938F239903FF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SwirePonk/Pods-SwirePonk-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SwirePonk/Pods-SwirePonk-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SwirePonk/Pods-SwirePonk-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D16034002EA9E147F27DCF54 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SwirePonk-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1E906C3327B7A51B00F6E52F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E906C8527B917E700F6E52F /* UIColor+HandleColor.m in Sources */,
+				1E906C6B27B7A64200F6E52F /* SPBaseViewController.m in Sources */,
+				1E906C4D27B7A51B00F6E52F /* main.m in Sources */,
+				1E906C9527B92AED00F6E52F /* SPLaunchScreenView.m in Sources */,
+				1E906C6027B7A61E00F6E52F /* SPAccountViewController.m in Sources */,
+				1E906C7127B7A67600F6E52F /* SPWelcomeViewController.m in Sources */,
+				1E906C7727B7A71400F6E52F /* AppDelegate.m in Sources */,
+				1E906C8127B80DE300F6E52F /* SPDataCenter.m in Sources */,
+				1E906C6A27B7A64200F6E52F /* SPNavigationController.m in Sources */,
+				1E906C6C27B7A64200F6E52F /* SPTabBarController.m in Sources */,
+				1E906C6327B7A63400F6E52F /* SPMainViewController.m in Sources */,
+				1E906C7D27B7B69400F6E52F /* DebugViewController.m in Sources */,
+				1E906C9227B92A7B00F6E52F /* SPLaunchScreenManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1E906C4E27B7A51B00F6E52F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1E906C4F27B7A51B00F6E52F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1E906C5127B7A51B00F6E52F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BEE4CEDFC2F7C5670FDB7A43 /* Pods-SwirePonk.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LG4F2G3665;
+				GCC_PREFIX_HEADER = "/Users/xupengfei/Desktop/myProject/SwirePonk/SwirePonk/SupportFiles/SwirePonk-PrefixHeader.pch";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SwirePonk/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kanpon.SwirePonk;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1E906C5227B7A51B00F6E52F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 53FD90A546DBF0F0ACCC3F60 /* Pods-SwirePonk.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LG4F2G3665;
+				GCC_PREFIX_HEADER = "/Users/xupengfei/Desktop/myProject/SwirePonk/SwirePonk/SupportFiles/SwirePonk-PrefixHeader.pch";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SwirePonk/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kanpon.SwirePonk;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1E906C3227B7A51B00F6E52F /* Build configuration list for PBXProject "SwirePonk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E906C4E27B7A51B00F6E52F /* Debug */,
+				1E906C4F27B7A51B00F6E52F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1E906C5027B7A51B00F6E52F /* Build configuration list for PBXNativeTarget "SwirePonk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E906C5127B7A51B00F6E52F /* Debug */,
+				1E906C5227B7A51B00F6E52F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1E906C2F27B7A51B00F6E52F /* Project object */;
+}
